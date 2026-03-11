@@ -272,7 +272,7 @@ export default function SubjectAreas() {
               >
                 {/* Icon container */}
                 <div 
-                  className="w-12 h-12 mb-3 text-primary-500 bg-primary-50 rounded-full flex items-center justify-center p-3 group-hover:text-primary-600 group-hover:bg-primary-100 transition-colors duration-200" 
+                  className="w-12 h-12 mb-3 text-blue-800 bg-blue-50 rounded-full flex items-center justify-center p-3 group-hover:text-blue-900 group-hover:bg-blue-100 transition-colors duration-200" 
                   aria-hidden="true"
                 >
                   {subject.icon}

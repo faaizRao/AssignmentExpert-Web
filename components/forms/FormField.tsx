@@ -27,7 +27,7 @@ export default function FormField({
   rows = 4,
   className = '',
 }: FormFieldProps) {
-  const baseInputStyles = 'w-full px-4 py-2 border rounded-lg transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent';
+  const baseInputStyles = 'w-full px-4 py-2 border rounded-lg transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-black';
   const errorStyles = error ? 'border-red-500 focus:ring-red-500' : 'border-neutral-300';
   const inputClassName = `${baseInputStyles} ${errorStyles}`;
   
@@ -92,7 +92,7 @@ export default function FormField({
     <div className={`mb-4 ${className}`}>
       <label 
         htmlFor={name} 
-        className="block text-sm font-medium text-neutral-700 mb-2"
+        className="block text-sm font-medium text-black mb-2"
       >
         {label}
         {required && <span className="text-red-500 ml-1" aria-label="required">*</span>}

@@ -5,6 +5,7 @@ import { Header } from "@/components/navigation/Header";
 import { Footer } from "@/components/Footer";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import ChatWidget from "@/components/ui/ChatWidget";
 
 // Font optimization with next/font
 const inter = Inter({
@@ -114,6 +115,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <ChatWidget />
           <WhatsAppButton />
         </ErrorBoundary>
       </body>
